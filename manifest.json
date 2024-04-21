@@ -1,0 +1,11 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["node_modules/jquery/dist/jquery.min.js","content_browsered.js"]
+    }
+  ]
+}
